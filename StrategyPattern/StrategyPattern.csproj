@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StrategyClass\Algorithms\Add.cs" />
     <Compile Include="StrategyClass\Algorithms\Multiply.cs" />
     <Compile Include="StrategyClass\MyClass.cs" />
     <Compile Include="Program.cs" />

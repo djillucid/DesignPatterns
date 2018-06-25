@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using StrategyPattern.StrategyClass.Algorithms;
 
 namespace StrategyPattern
 {
@@ -23,6 +21,7 @@ namespace StrategyPattern
             algList.Add(new Multiply());
             algList.Add(new ReturnLargestAlgorithm());
             algList.Add(new ReturnLowestAlgorithm());
+            algList.Add(new Add());
 
             MyClass mc = new MyClass(24, 1, 2);
             Console.WriteLine("Running through algorithms\n");
