@@ -19,14 +19,10 @@ namespace SimpleFactory
                 Console.WriteLine("The item is: " + item + ":");
                 MfrPlant myPlant = new MfrPlant();
                 myPlant.NewVehicle(item.ToString());
+
                 Console.WriteLine("Vehicle info: Type {0} - Color {1} - Number of Wheels {2}\n", myPlant.vehicle.Name, myPlant.vehicle.paintColor, myPlant.vehicle.NumberWheels);
 
-             
-
-
             }
-
-
 
             Console.ReadLine();
 
