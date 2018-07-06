@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Candy.cs" />
+    <Compile Include="CandyStore.cs" />
+    <Compile Include="ChocolateStore.cs" />
+    <Compile Include="HardCandyStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
